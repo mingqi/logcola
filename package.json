@@ -1,0 +1,27 @@
+{
+  "name": "logcola",
+  "description": "a simple, flexible, scalable log data collector based on Node.js",
+  "version": "0.1.18",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mingqi/logcola.git"
+  },
+  "dependencies": {
+    "express": "~4",
+    "glob": "*",
+    "hoconfig-js": "*",
+    "human-format": "*",
+    "log4js": "*",
+    "mkdirp": "*",
+    "moment": "*",
+    "nedb": "^0.11.1",
+    "tail-forever": "*",
+    "uclogs-async": "*",
+    "underscore": "*",
+    "verror": "*"
+  },
+  "devDependencies": {
+    "sleep": "*",
+    "commander": "*"
+  }
+}
